@@ -51,10 +51,32 @@
       </AbstractStep>
       <AbstractStep z:Id="i7" i:type="ExecutedStep">
         <Childs />
-        <Id>63baf5fb-e0bd-448b-88f1-a37c3b07b028</Id>
+        <Id>72c0a5bf-d67c-439b-b7e0-c358f616399e</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
           <PropertyValue z:Id="i8">
+            <PropertyName>Browser</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>chBrowser</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Cerrar navegador</Text>
+        <_activityFullName>Activities.Web.CloseBrowser</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i9" i:type="ExecutedStep">
+        <Childs />
+        <Id>63baf5fb-e0bd-448b-88f1-a37c3b07b028</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i10">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Finalización del cierre de aplicaciones abiertas."</_expression>
@@ -86,7 +108,7 @@
   <Name>CloseApplications.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i9">
+    <Parameter z:Id="i11">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>DB_Conn</Name>
@@ -95,7 +117,7 @@
     </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
-    <d2p1:_Build>0</d2p1:_Build>
+    <d2p1:_Build>2</d2p1:_Build>
     <d2p1:_Major>2</d2p1:_Major>
     <d2p1:_Minor>27</d2p1:_Minor>
     <d2p1:_Revision>0</d2p1:_Revision>

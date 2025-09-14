@@ -59,11 +59,15 @@
       <IsMain>false</IsMain>
       <Path>Framework\WEB\FormUpload.pix</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i16">
+      <IsMain>false</IsMain>
+      <Path>Framework\ONEDRIVE\Upload.pix</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>PIXRPA-PruebaTecnica</Name>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
-    <d2p1:_Build>0</d2p1:_Build>
+    <d2p1:_Build>2</d2p1:_Build>
     <d2p1:_Major>2</d2p1:_Major>
     <d2p1:_Minor>27</d2p1:_Minor>
     <d2p1:_Revision>0</d2p1:_Revision>
